@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">1</string>
+    <string name="main_test_string">новая созданная строка</string>
+
+    <plurals name="main_plural_string">
+        <item quantity="one">%1$d значение</item>
+        <item quantity="few">%1$d значения</item>
+        <item quantity="other">%1$d значений</item>
+    </plurals>
+
+</resources>

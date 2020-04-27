@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">1</string>
+    <string name="main_test_string">new created row</string>
+
+    <plurals name="main_plural_string">
+        <item quantity="one">%1$d value</item>
+        <item quantity="few">%1$d values</item>
+        <item quantity="other">%1$d values</item>
+    </plurals>
+
+</resources>

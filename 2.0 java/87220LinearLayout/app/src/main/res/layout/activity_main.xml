@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conctraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="239dp">
+
+        <Spinner
+            android:id="@+id/name"
+            android:layout_width="209dp"
+            android:layout_height="66dp"
+            android:entries="@array/forspinner" />
+
+        <Spinner
+            android:id="@+id/group"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:entries="@array/forspinner2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="111dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Имя"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="114dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:text="группа"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="116dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center_horizontal"
+            android:text="сообщение" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/myEditText"
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:hint="Message" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="Button" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

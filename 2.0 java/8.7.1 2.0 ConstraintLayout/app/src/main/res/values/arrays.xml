@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="forspinner">
+
+        <item>Вася</item>
+        <item>Петя</item>
+        <item>Антон</item>
+        <item>Миша</item>
+        <item>Максим</item>
+
+    </string-array>
+
+
+    <string-array name="forspinner2">
+
+        <item>Плавание</item>
+        <item>Футбол</item>
+        <item>Бег</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:hint="Enter message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/emailAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter email adress" />
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter email subject"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        tools:ignore="HardcodedText"
+        android:id="@+id/sendEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send email"/>
+
+    <Button
+        android:id="@+id/takePhotoButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Take photo"/>
+
+<ImageView
+    android:id="@+id/resultPhotoImageView"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="200dp"
+    android:layout_height="200dp"/>
+
+
+
+</LinearLayout>

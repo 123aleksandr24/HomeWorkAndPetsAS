@@ -1,0 +1,31 @@
+<!--<resources>-->
+<!--    <string name="app_name">10.1 2.0 LadaResourseExample</string>-->
+<!--    <string name="button_name">Выбрать авто</string>-->
+<!--    <string name="textViewGranta">Лада Граната </string>-->
+<!--    <string name="textViewPriora">Лада Приора</string>-->
+<!--    <string name="textViewVesta">Лада Веста</string>-->
+
+<!--    <string-array name="cars">-->
+
+<!--        <item>Гранта</item>-->
+<!--        <item>Приора</item>-->
+<!--        <item>Веста</item>-->
+
+<!--    </string-array>-->
+<!--</resources>-->
+<resources>
+<string name="app_name">10.1 2.0 LadaResourseExample</string>
+<string name="button_name">Choose Auto</string>
+<string name="textViewGranta">Lada Granta </string>
+<string name="textViewPriora">Lada Priora</string>
+<string name="textViewVesta">Lada Vesta</string>
+
+<string-array name="cars">
+
+    <item>Granta</item>
+    <item>Priora</item>
+    <item>Vesta</item>
+
+</string-array>
+</resources>
+

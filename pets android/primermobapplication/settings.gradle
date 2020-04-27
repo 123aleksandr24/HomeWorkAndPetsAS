@@ -1,0 +1,2 @@
+rootProject.name='primer mob application'
+include ':app'

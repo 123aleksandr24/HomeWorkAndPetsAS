@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">12.1 2.0 shoping list</string>
+
+    <string-array name="list_view_items">
+        <item>продукты</item>
+        <item>одежда</item>
+        <item>интсрументы</item>
+        <item>хозтовары</item>
+    </string-array>
+</resources>

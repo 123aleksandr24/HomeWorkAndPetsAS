@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pet java notification</string>
+
+    <string name="app_name">ServiceNotification</string>
+    <string name="hello_world">ServiceNotification</string>
+    <string name="action_setting">ServiceNotification</string>
+
+    <string name="start">ServiceNotification</string>
+    <string name="stop">ServiceNotification</string>
+
+</resources>
